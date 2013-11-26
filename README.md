@@ -16,11 +16,6 @@ If we standardise the number of R questions by the number of python questions, w
 
 ![R questions growing relative to python](images/so-rel.png) 
 
-
 ## Google trends
 
-Looking at google trends data for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
-
-<script type="text/javascript" 
-src="//www.google.com/trends/embed.js?hl=en-US&q=r+tutorial,+python+tutorial&cmpt=q&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330">
-</script>
+Looking at [google trends data](http://www.google.com/trends/explore#q=r%20tutorial%2C%20python%20tutorial&cmpt=q) for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
