@@ -15,3 +15,12 @@ A little further exploration (not shown) indicates that this is very close to be
 If we standardise the number of R questions by the number of python questions, we see that R the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every four questions asked about python.
 
 ![R questions growing relative to python](images/so-rel.png) 
+
+
+## Google trends
+
+Looking at google trends data for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
+
+<script type="text/javascript" 
+src="//www.google.com/trends/embed.js?hl=en-US&q=r+tutorial,+python+tutorial&cmpt=q&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330">
+</script>
