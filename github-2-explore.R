@@ -4,6 +4,7 @@ library(dplyr)
 all <- ungroup(readRDS("github.rds"))
 all$query <- NULL
 all$date <- as.Date(ISOdate(all$year, all$month, 1))
+all$lang <- as.character(all$lang)
 
 # For github repos, both R and python growing exponential, but python
 # is a long way ahead
