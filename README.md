@@ -19,3 +19,9 @@ If we standardise the number of R questions by the number of python questions, w
 ## Google trends
 
 Looking at [google trends data](http://www.google.com/trends/explore#q=r%20tutorial%2C%20python%20tutorial&cmpt=q) for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
+
+## Other ideas
+
+* Look at use of mailing lists. Is there a pydata specific mailing list?
+* Compare twitter hashtags: rstats, python, pydata?
+* Compare package downloads?
