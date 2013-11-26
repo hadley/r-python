@@ -2,7 +2,7 @@
 
 This repo is an attempt to use data to explore the claims in [Python Displacing R As The Programming Language For Data Science](http://t.co/jdR2WF4Kjg) and [The homogenization of scientific computing, or why Python is steadily eating other languages’ lunch](http://bit.ly/1geFq6e).
 
-The individual files contain the R code that I used to gather data from each source, and the results are summarised below. I've made no attempt to separate python for data analysis from other uses of python, but hopefully the signals are still indicative. If you think my methodology is wrong, or you have other ideas for data sets, please send a pull request.
+The individual files contain the R code that I used to gather data from each source, and the results are summarised below. I've made no attempt to separate python for data analysis from other uses of python, but hopefully the signals are still indicative. If you think my methodology is wrong, or you have other ideas for data sets, please send a pull request and I'll merge it in.
 
 ## Stackoverflow questions
 
@@ -15,6 +15,16 @@ A little further exploration (not shown) indicates that this is very close to be
 If we standardise the number of R questions by the number of python questions, we see that R the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every four questions asked about python.
 
 ![R questions growing relative to python](images/so-rel.png) 
+
+## Github repos
+
+Again we see exponential growth in both repos containing R code and repos containing python code (these number don't include forks), but R repo's are relatively less common than R questions.
+
+![Explosive growth of R and python repos over time](images/github-raw.png)
+
+If we standardise the number of R repos by the number of python repos, we see that R is (slowly) catching up, but it's a long way behind.
+
+![R repos growing relative to python repos](images/github-rel.png) 
 
 ## Google trends
 
