@@ -17,6 +17,6 @@ all_rel <- all %.% group_by(date) %.%
   mutate(rel = count / max(count))
 
 # Again R is catching up, but it's a lot further behind
-qplot(date, rel, data = all_rel %.% filter(lang == "r"), geom = "line", colour = lang) + 
+qplot(date, rel, data = all_rel %.% filter(lang == "r"), geom = "line") + 
   ylab("R repos relative to python repos")
-ggsave("images/github-rel.png", width = 8, height = 6)
+ggsave("images/github-rel.png", width = 8, height = 6) 
