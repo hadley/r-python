@@ -3,7 +3,6 @@ library(ggplot2)
 library(XML)
 library(stringr)
 library(reshape2)
-library(lubridate)
 
 base <- "https://pypi.python.org/stats/months/"
 doc <- content(GET(base),as="text")
