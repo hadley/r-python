@@ -30,6 +30,12 @@ If we standardise the number of R repos by the number of python repos, we see th
 
 Looking at [google trends data](http://www.google.com/trends/explore#q=r%20tutorial%2C%20python%20tutorial&cmpt=q) for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
 
+## Some Python Data (but not much)
+
+This is the data of monthly downloads made available from the [Python PyPi Package Index](https://pypi.python.org/stats/months/). The plot shows the growth in several data analysis packages for Python.  Somethig happens in March, 2013 when the growth explodes. 
+
+![PyPi package downloads](images/PyPiPackages.png) 
+
 ## Other ideas
 
 * Look at use of mailing lists. Is there a pydata specific mailing list?
