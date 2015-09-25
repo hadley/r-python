@@ -18,11 +18,11 @@ If we standardise the number of R questions by the number of python questions, w
 
 ## Github repos
 
-Again we see exponential growth in both repos containing R code and repos containing python code (these number don't include forks), but R repo's are relatively less common than R questions.
+Again we see exponential growth in both repos containing R code and repos containing python code (these number don't include forks), but R repo's are relatively less common than R questions. The big jump in repo creation in 2014 is probably due the [JHU coursera course](https://www.coursera.org/course/datascitoolbox).
 
 ![Explosive growth of R and python repos over time](images/github-raw.png)
 
-If we standardise the number of R repos by the number of python repos, we see that R is (slowly) catching up, but it's a long way behind.
+If we standardise the number of R repos by the number of python repos, we see that R has been decreasing since the big jump in 2015.
 
 ![R repos growing relative to python repos](images/github-rel.png) 
 

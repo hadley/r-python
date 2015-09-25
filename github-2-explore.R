@@ -1,22 +1,23 @@
 library(ggplot2)
 library(dplyr)
 
-all <- ungroup(readRDS("github.rds"))
-all$query <- NULL
-all$date <- as.Date(ISOdate(all$year, all$month, 1))
-all$lang <- as.character(all$lang)
+gh <- readRDS("github.rds")
+gh$query <- NULL
 
-# For github repos, both R and python growing exponential, but python
-# is a long way ahead
-qplot(date, count, data = all, geom = "line", colour = lang)
-ggsave("images/github-raw.png", width = 8, height = 6)
+# For github repos, both R and python growing exponentially, but python
+# is a long way ahead. Big spike in R repo creation in early 2014 
+# probably due to JHU coursera course.
+ggplot(gh, aes(start, count)) + 
+  geom_line(aes(colour = lang)) +
+  scale_y_log10()
+ggsave("images/github-raw.png", width = 8, height = 6, dpi = 96)
 
-qplot(date, count, data = all, geom = "line", colour = lang) + scale_y_log10()
+rel <- gh %>% 
+  group_by(start) %>% 
+  mutate(rel = count / max(count)) %>%
+  filter(lang == "r")
 
-all_rel <- all %.% group_by(date) %.% 
-  mutate(rel = count / max(count))
-
-# Again R is catching up, but it's a lot further behind
-qplot(date, rel, data = all_rel %.% filter(lang == "r"), geom = "line") + 
-  ylab("R repos relative to python repos")
+# Steadily decline in relative usage since post 2014
+ggplot(rel, aes(start, rel)) + 
+  geom_line()
 ggsave("images/github-rel.png", width = 8, height = 6) 
