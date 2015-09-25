@@ -12,7 +12,7 @@ Using the [stackexchange data explorer](http://data.stackexchange.com/stackoverf
 
 A little further exploration (not shown) indicates that this is very close to being exponential growth.  
 
-If we standardise the number of R questions by the number of python questions, we see that R the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every four questions asked about python.
+If we standardise the number of R questions by the number of python questions, we see that R the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every three questions asked about python.
 
 ![R questions growing relative to python](images/so-rel.png) 
 
