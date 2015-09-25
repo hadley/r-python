@@ -12,7 +12,7 @@ Using the [stackexchange data explorer](http://data.stackexchange.com/stackoverf
 
 A little further exploration (not shown) indicates that this is very close to being exponential growth.  
 
-If we standardise the number of R questions by the number of python questions, we see that R the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every three questions asked about python.
+If we standardise the number of R questions by the number of python questions, we see that the number of R questions is increasing more rapidly than python. Currently, about 1 question about R is asked for every three questions asked about python.
 
 ![R questions growing relative to python](images/so-rel.png) 
 
@@ -29,6 +29,12 @@ If we standardise the number of R repos by the number of python repos, we see th
 ## Google trends
 
 Looking at [google trends data](http://www.google.com/trends/explore#q=r%20tutorial%2C%20python%20tutorial&cmpt=q) for people searching for language tutorials, both languages are relatively flat. Growth in searches for R tutorials is relatively flat, perhaps with a slight increases, while growth for python searches has been considerably more variable over time.
+
+## Some Python Data (but not much)
+
+This is the data of monthly downloads made available from the [Python PyPi Package Index](https://pypi.python.org/stats/months/). The plot shows the growth in several data analysis packages for Python.  Somethig happens in March, 2013 when the growth explodes. 
+
+![PyPi package downloads](images/PyPiPackages.png) 
 
 ## Other ideas
 
