@@ -41,3 +41,7 @@ This is the data of monthly downloads made available from the [Python PyPi Packa
 * Look at use of mailing lists. Is there a pydata specific mailing list?
 * Compare twitter hashtags: rstats, python, pydata?
 * Compare package downloads?
+* Number of Kaggle solution scripts written in R versus Python.
+* Number of Machine Learning courses on MOOC sites that use R versus Python.
+* Compare attendees at big R versus big Python data conferences year-over-year.
+
